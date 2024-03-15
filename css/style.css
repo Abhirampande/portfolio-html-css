@@ -1,0 +1,165 @@
+@import 'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --grey:#A9A9A9;
+    --secondary:#070606;
+
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+
+}
+
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 96%, 0 100%);
+   
+}
+
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color:var(--primary)
+}
+
+header nav {
+    padding:2rem 0;
+}
+
+header nav .brand-Name{
+    margin-right:3rem ;
+}
+.abhi{
+    padding: 3rem 0;
+}
+.abhi .left img{
+    width:300px;
+    height:300px; ;
+}
+.abhi .right{
+    color:var(--pure);
+}
+.abhi .right h5{
+    font-size:1.6rem;
+    color:var(--primary);
+    margin-bottom:0.5rem;
+}
+.abhi .right h1{
+    font-size:3rem;
+    font-weight: 100;
+    line-height:1.2;
+    margin-bottom:1.5rem;
+    color:var(--grey);
+    
+}
+.abhi .right h1 span{
+    color:var(--grey);
+}
+.abhi .right p{
+    line-height:1.9rem;
+    margin-bottom:2rem;
+}
+.abhi .right{
+    margin-top: -2rem;
+}
+section{
+    padding:6rem 0;
+}
+section.about .about-me-img{
+    height: 450px;
+    width: 300px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size:1.6rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color:var(--primary);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color:var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+}
+section.about .social{
+    display:flex;
+}
+section.about .social a{
+    background:var(--grey);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    transition: all .3s ease;
+
+}
+section.about .social a:hover{
+    background:var(--primary);
+
+}
+.section-heading{
+    color:var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+.section-heading span{
+    color: var(--primary);
+}
+.section-heading + p{
+    color:var(--ternary);
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+section.services .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.card-wrapper .card img{
+    height: 100px;
+    width: 100px;  
+}
+section.services{
+    background:var(--light);
+}
+section.services .card-wrapper .card{
+    
+}
+
+
+
+
